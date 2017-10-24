@@ -1,9 +1,12 @@
-Set indd = CreateObject("InDesign.Application")
-If 0 < indd.Documents.Count Then
-	If indd.ActiveDocument.Saved = True Then
-		Set shell = CreateObject("WScript.Shell")
-		shell.Run "explorer.exe /e,/select,""" & indd.ActiveDocument.FullName & """"
-		Set shell = Nothing
+Option Explicit
+Dim inddObj
+Set inddObj = CreateObject("InDesign.Application")
+If 0 < inddObj.Documents.Count Then
+	If inddObj.ActiveDocument.Saved = True Then
+		Dim shellObj
+		Set shellObj = CreateObject("WScript.Shell")
+		shellObj.Run "explorer.exe /e,/select,""" & inddObj.ActiveDocument.FullName & """"
+		Set shellObj = Nothing
 	End If
 End If
-Set indd = Nothing
+
