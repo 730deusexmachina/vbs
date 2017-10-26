@@ -1,4 +1,4 @@
-#最近書いたもの(主に拡張子が.vbs)  
+# 最近書いたもの(主に拡張子が.vbs)  
 特に注意書きのないものは、Windows用のInDesign上で動くVBScript
 
 ## vbs/このドキュメントの格納パスをExplorerで開く/
