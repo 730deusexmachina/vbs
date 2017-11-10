@@ -19,7 +19,7 @@ app.activeDocument‚ªsaved‚Å‚ ‚éA‰EƒyƒCƒ“‚Å‚»‚Ìƒtƒ@ƒCƒ‹‚ª‘I‘ğ‚³‚ê‚½ó‘Ô‚ÌƒGƒNƒ
   
   
 
-### activeDocument‚Ìƒtƒ@ƒCƒ‹–¼(ƒtƒ‹ƒpƒX)‚ğƒNƒŠƒbƒvƒ{[ƒh‚É‘—‚é.bas
+## vbs/‚±‚ÌƒhƒLƒ…ƒƒ“ƒg‚Ì–¼‘O‚ğƒNƒŠƒbƒvƒ{[ƒh‚É‘—‚é
 app.activeDocument‚ªsaved‚Å‚ ‚éAƒtƒ@ƒCƒ‹–¼(ƒtƒ‹ƒpƒX)‚ğƒNƒŠƒbƒvƒ{[ƒh‚É‘—‚é
   
   
