@@ -10,4 +10,5 @@ If 0 < inddObj.Documents.Count Then
 		MsgBox("クリップボードに転送しました：" & vbCrLf & inddObj.ActiveDocument.FullName)
 	End If
 End If
+Set inddObj = Nothing
 
