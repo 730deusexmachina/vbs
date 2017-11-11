@@ -9,4 +9,5 @@ If 0 < inddObj.Documents.Count Then
 		Set shellObj = Nothing
 	End If
 End If
+Set inddObj = Nothing
 

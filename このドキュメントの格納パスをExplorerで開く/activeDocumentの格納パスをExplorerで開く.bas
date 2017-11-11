@@ -11,5 +11,6 @@ Public Sub activeDocument‚ÌŠi”[ƒpƒX‚ðExplorer‚ÅŠJ‚­()
             Set shellObj = Nothing
         End If
     End If
+    Set inddObj = Nothing
 End Sub
 
