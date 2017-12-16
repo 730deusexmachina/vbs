@@ -23,6 +23,7 @@ ElseIf 0 < indd.Books.Count Then
 	'app.activeBookに対して処理を実行
 	execCommand(indd.ActiveBook.FullName)
 End If
+Set inddObj = Nothing
 
 'InDesignオブジェクト破棄
 Set indd = Nothing
